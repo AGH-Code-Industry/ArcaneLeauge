@@ -175,7 +175,7 @@ class MainWidget(RelativeLayout):
 
         self.current_offset_x += self.SPEED_X
         missiles_size = 0.1 * self.height
-
+#asd
         #MINIONS MISSILES
         if self.time_delay % (self.FPS * 3) == 1:
             for i in range(0, self.minions_number):
